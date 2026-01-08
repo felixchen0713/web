@@ -2,17 +2,10 @@ baseURL: "https://xiaoxingchen.me/"
 title: "Xiaoxing Chen"
 theme: ["hugo-PaperMod"]
 
-enableInlineShortcodes: true
 enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
-
-minify:
-  disableXML: true
 
 pagination:
-  pagerSize: 10
+  pagerSize: 8
 
 outputs:
   home:
@@ -20,7 +13,6 @@ outputs:
     - RSS
     - JSON
 
-# 顶部导航（像你截图右侧那个 Pages 列表的效果）
 menu:
   main:
     - name: About
@@ -47,21 +39,41 @@ menu:
 
 params:
   env: production
-  description: "Xiaoxing Chen | CS @ Duke | Security"
-  author: "Xiaoxing Chen"
-
   defaultTheme: auto
-  disableThemeToggle: false
-
   ShowReadingTime: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowRssButtonInSectionTermList: true
 
-  # ✅ 关闭 PaperMod 默认首页 ProfileMode（我们用 _index.md 自己写主页）
+  # ✅ 关键：开启个人主页模式
   profileMode:
-    enabled: false
+    enabled: true
+    title: "Xiaoxing Chen"
+    subtitle: "CS Graduate student focusing on security @ Duke University"
+    # ✅ 你已经上传到 static/images/felix.jpg
+    imageUrl: "/images/felix.jpg"
+    imageTitle: "Xiaoxing Chen"
+    imageWidth: 160
+    imageHeight: 160
+
+    buttons:
+      - name: About Me
+        url: "/about/"
+      - name: CV
+        url: "/cv/"
+      - name: Projects
+        url: "/projects/"
+      - name: Blog
+        url: "/posts/"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/felixchen0713"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/xiaoxing-chen-8448b7263/"
+    - name: email
+      url: "mailto:felixchen713@gmail.com"
 
 markup:
   goldmark:
