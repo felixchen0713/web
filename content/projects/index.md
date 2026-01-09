@@ -1,9 +1,6 @@
 ---
 title: "Projects"
-url: "/projects/"
 layout: "page"
 ---
 
-## Projects
-(put your projects here)
-
+Here are some selected projects I have worked on, focusing on systems, web development, and developer tools.
