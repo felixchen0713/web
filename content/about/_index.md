@@ -59,10 +59,12 @@ B.S. in Computer Secience and Engineering
 ---
 
 ### A little about me
-Outside of research and coding, I’m a big cat person 🐱  
+Outside of research and coding, I’m a big cat person 🐱 and a sports enthusiast 🏸🏀  
+I enjoy playing badminton and basketball whenever I’m not in front of a screen. 
 This is my cat — usually saying hi, sometimes judging my code:
 
-![My cat](/images/cat.jpg)
+<img src="/images/cat.jpg" alt="My cat" style="width:66%; max-width:500px; border-radius:12px;">
+<p style="font-size:0.9em; color:gray;">My cat saying hi 🐾</p>
 
 </div>
 </div>
