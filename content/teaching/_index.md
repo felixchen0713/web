@@ -4,8 +4,6 @@ url: "/teaching/"
 layout: "page"
 ---
 
-## Teaching
-
 ### Graduate Teaching Assistant (GTA)
 
 - **CS521 — Graph Analysis with Matrix Computation** (Fall 2025)  
