@@ -5,7 +5,7 @@ title: "About Me"
 <div style="display:flex; gap:40px; align-items:flex-start; flex-wrap:wrap;">
 
 <div style="flex:1; min-width:260px;">
-<img src="/images/felix.jpg" style="width:100%; border-radius:8px;" />
+<img src="felix.jpg" style="width:100%; border-radius:8px;" />
 
 <p style="margin-top:10px; font-size:14px; color:gray;">
 CS Graduate Student<br/>
@@ -64,7 +64,7 @@ I enjoy playing badminton and basketball whenever I’m not in front of a screen
 This is my cat — usually saying hi, sometimes judging my code:
 
 <img 
-  src="static/images/cat.jpg" 
+  src="cat.jpg" 
   alt="My cat" 
   style="width:66%; max-width:500px; border-radius:12px; display:block; margin: 1rem 0;">
 <p style="font-size:0.9em; color:gray;">
