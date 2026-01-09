@@ -43,8 +43,13 @@ My interests include:
 **Duke University**  
 M.S. in Computer Science  
 
-**The Ohio State University**
+**The Ohio State University**  
 B.S. in Computer Secience and Engineering
+
+---
+
+**Publications**
+- *Investigation on the Self-Improving Algorithm of TikTok Based on Extensive User Interactions* (SCITEPRESS 2024)
 
 ---
 
