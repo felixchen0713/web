@@ -4,9 +4,7 @@ title: "About Me"
 
 <div style="display:flex; gap:40px; align-items:flex-start; flex-wrap:wrap;">
 
-  <!-- 左栏：头像 + 联系方式 -->
   <div style="flex:1; min-width:260px;">
-
     <img src="felix.jpg" style="width:100%; border-radius:16px;" />
 
     <p style="margin-top:12px; font-size:14px; color:gray;">
@@ -14,37 +12,35 @@ title: "About Me"
       Duke University
     </p>
 
-    <p>
+    <p style="line-height:1.8;">
       📧 <a href="mailto:felixchen713@gmail.com">felixchen713@gmail.com</a><br/>
       🔗 <a href="https://www.linkedin.com/in/xiaoxing-chen-8448b7263/">LinkedIn</a><br/>
       🐙 <a href="https://github.com/felixchen0713">GitHub</a>
     </p>
-
   </div>
 
-  <!-- 右栏：正文内容 -->
   <div style="flex:2; min-width:300px;">
+    <h2>Hi, I'm Xiaoxing Chen</h2>
 
-    ## Hi, I'm Xiaoxing Chen
+    <p>
+      I am a <b>CS graduate student at Duke University</b>, focusing on <b>systems and security</b>.
+      My academic interests include system design, security, and building reliable software systems.
+    </p>
 
-    I am a **CS graduate student at Duke University**, focusing on **systems and security**.
-    My academic interests include system design, security, and building reliable software systems.
+    <h3>A little about me</h3>
 
-    ### A little about me
+    <p>
+      Outside of research and coding, I’m a big cat person 🐱 and a sports enthusiast 🏸🏀.
+      I enjoy playing badminton and basketball whenever I’m not in front of a screen.
+    </p>
 
-    Outside of research and coding, I’m a big cat person 🐱 and a sports enthusiast 🏸🏀.  
-    I enjoy playing badminton and basketball whenever I’m not in front of a screen.
-
-    This is my cat — usually saying hi, sometimes judging my code:
+    <p>This is my cat — usually saying hi, sometimes judging my code:</p>
 
     <img src="cat.jpg"
          alt="My cat"
          style="width:66%; max-width:420px; border-radius:14px; margin:1rem 0;" />
 
-    <p style="font-size:0.9em; color:gray;">
-      My cat saying hi 🐾
-    </p>
-
+    <p style="font-size:0.9em; color:gray;">My cat saying hi 🐾</p>
   </div>
 
 </div>
