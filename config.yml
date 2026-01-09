@@ -65,3 +65,9 @@ params:
 
 # ========== 隐藏 Blog ==========
 mainsections: []
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
