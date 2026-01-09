@@ -15,3 +15,15 @@ iframe {
 .entry-cover img {
     border: 1px solid var(--border);
 }
+
+.profile_inner img {
+  width: 160px;
+  height: 160px;
+
+  object-fit: cover;
+  object-position: center 28%;
+
+  border-radius: 50%;
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
