@@ -42,6 +42,7 @@ My interests include:
 ### Education
 **Duke University**  
 M.S. in Computer Science  
+
 **The Ohio State University**
 B.S. in Computer Secience and Engineering
 
