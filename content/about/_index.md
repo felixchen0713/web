@@ -2,12 +2,6 @@
 title: "About Me"
 ---
 
-<div style="display:flex; gap:40px; align-items:flex-start; flex-wrap:wrap;">
-
-<div style="flex:1; min-width:260px;">
-<img src="felix.jpg" style="width:100%; border-radius:8px;" />
-
-<p style="margin-top:10px; font-size:14px; color:gray;">
 CS Graduate Student<br/>
 Duke University
 </p>
@@ -54,6 +48,7 @@ B.S. in Computer Secience and Engineering
 ---
 
 ### CV
+Here is my Resume
 📄 [Download my CV (PDF)](/images/Resume.pdf)
 
 ---
@@ -62,6 +57,7 @@ B.S. in Computer Secience and Engineering
 Outside of research and coding, I’m a big cat person 🐱 and a sports enthusiast 🏸🏀  
 I enjoy playing badminton and basketball whenever I’m not in front of a screen. 
 This is my cat — usually saying hi, sometimes judging my code:
+
 ![My cat](/images/cat.jpg)
 </div>
 </div>
