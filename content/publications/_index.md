@@ -4,8 +4,6 @@ url: "/publications/"
 layout: "page"
 ---
 
-## Publications
-
 ### Investigation on the Self-Improving Algorithm of TikTok Based on Extensive User Interactions  
 **Xiaoxing Chen**  
 *Department of Computer Science and Engineering, The Ohio State University*
