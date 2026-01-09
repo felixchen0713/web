@@ -48,13 +48,21 @@ B.S. in Computer Secience and Engineering
 
 ---
 
-**Publications**
+### Publications
 - *Investigation on the Self-Improving Algorithm of TikTok Based on Extensive User Interactions* (SCITEPRESS 2024)
 
 ---
 
 ### CV
 📄 [Download my CV (PDF)](/images/Resume.pdf)
+
+---
+
+### A little about me
+Outside of research and coding, I’m a big cat person 🐱  
+This is my cat — usually saying hi, sometimes judging my code:
+
+![My cat](/images/cat.jpg)
 
 </div>
 </div>
