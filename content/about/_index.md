@@ -2,62 +2,49 @@
 title: "About Me"
 ---
 
-CS Graduate Student<br/>
-Duke University
-</p>
+<div style="display:flex; gap:40px; align-items:flex-start; flex-wrap:wrap;">
 
-<p>
-📧 <a href="mailto:felixchen713@gmail.com">felixchen713@gmail.com</a><br/>
-🔗 <a href="https://www.linkedin.com/in/xiaoxing-chen-8448b7263/">LinkedIn</a><br/>
-🐙 <a href="https://github.com/felixchen0713">GitHub</a>
-</p>
-</div>
+  <!-- 左栏：头像 + 联系方式 -->
+  <div style="flex:1; min-width:260px;">
 
-<div style="flex:2; min-width:300px;">
+    <img src="felix.jpg" style="width:100%; border-radius:16px;" />
 
-## Hi, I'm Xiaoxing Chen
+    <p style="margin-top:12px; font-size:14px; color:gray;">
+      CS Graduate Student<br/>
+      Duke University
+    </p>
 
-I am a **CS graduate student at Duke University**, focusing on **systems and security**.
+    <p>
+      📧 <a href="mailto:felixchen713@gmail.com">felixchen713@gmail.com</a><br/>
+      🔗 <a href="https://www.linkedin.com/in/xiaoxing-chen-8448b7263/">LinkedIn</a><br/>
+      🐙 <a href="https://github.com/felixchen0713">GitHub</a>
+    </p>
 
-My interests include:
-- CyberSecurity
-- Distributed Systems
-- Applied Cryptography
+  </div>
 
----
+  <!-- 右栏：正文内容 -->
+  <div style="flex:2; min-width:300px;">
 
-### Research Interests
-- System & Network Security  
-- Distributed Systems  
-- Trustworthy Computing  
+    ## Hi, I'm Xiaoxing Chen
 
----
+    I am a **CS graduate student at Duke University**, focusing on **systems and security**.
+    My academic interests include system design, security, and building reliable software systems.
 
-### Education
-**Duke University**  
-M.S. in Computer Science  
+    ### A little about me
 
-**The Ohio State University**  
-B.S. in Computer Secience and Engineering
+    Outside of research and coding, I’m a big cat person 🐱 and a sports enthusiast 🏸🏀.  
+    I enjoy playing badminton and basketball whenever I’m not in front of a screen.
 
----
+    This is my cat — usually saying hi, sometimes judging my code:
 
-### Publications
-- *Investigation on the Self-Improving Algorithm of TikTok Based on Extensive User Interactions* (SCITEPRESS 2024)
+    <img src="cat.jpg"
+         alt="My cat"
+         style="width:66%; max-width:420px; border-radius:14px; margin:1rem 0;" />
 
----
+    <p style="font-size:0.9em; color:gray;">
+      My cat saying hi 🐾
+    </p>
 
-### CV
-Here is my Resume
-📄 [Download my CV (PDF)](/images/Resume.pdf)
+  </div>
 
----
-
-### A little about me
-Outside of research and coding, I’m a big cat person 🐱 and a sports enthusiast 🏸🏀  
-I enjoy playing badminton and basketball whenever I’m not in front of a screen. 
-This is my cat — usually saying hi, sometimes judging my code:
-
-![My cat](/images/cat.jpg)
-</div>
 </div>
