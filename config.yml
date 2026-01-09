@@ -1,71 +1,54 @@
 baseURL: "https://xiaoxingchen.me/"
-title: "Xiaoxing Chen"
-theme: ["hugo-PaperMod"]
+title: Xiaoxing Chen
+theme: [hugo-PaperMod]
 
 enableRobotsTXT: true
+enableEmoji: true
 
 pagination:
-  pagerSize: 8
+  pagerSize: 5
 
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
+# ========== 菜单 ==========
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: About
+          url: /about/
+          weight: 1
+        - name: CV
+          url: /cv/
+          weight: 2
+        - name: Projects
+          url: /projects/
+          weight: 3
+        - name: Publications
+          url: /publications/
+          weight: 4
+        - name: Teaching
+          url: /teaching/
+          weight: 5
 
-menu:
-  main:
-    - name: About
-      url: /about/
-      weight: 10
-    - name: CV
-      url: /cv/
-      weight: 20
-    - name: Projects
-      url: /projects/
-      weight: 30
-    - name: Publications
-      url: /publications/
-      weight: 40
-    - name: Research
-      url: /research/
-      weight: 50
-    - name: Teaching
-      url: /teaching/
-      weight: 60
-    - name: Blog
-      url: /posts/
-      weight: 70
-
+# ========== 首页 ==========
 params:
-  env: production
   defaultTheme: auto
-  ShowReadingTime: true
-  ShowShareButtons: false
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
+  disableThemeToggle: false
 
-  # ✅ 关键：开启个人主页模式
   profileMode:
     enabled: true
-    title: "Xiaoxing Chen"
-    subtitle: "CS Graduate student focusing on security @ Duke University"
-    # ✅ 你已经上传到 static/images/felix.jpg
+    title: Xiaoxing Chen
+    subtitle: "CS Graduate Student focusing on Security @ Duke University"
     imageUrl: "/images/felix.jpg"
-    imageTitle: "Xiaoxing Chen"
-    imageWidth: 160
-    imageHeight: 160
-
+    imageTitle: Xiaoxing Chen
     buttons:
       - name: About Me
-        url: "/about/"
+        url: /about/
       - name: CV
-        url: "/cv/"
+        url: /cv/
       - name: Projects
-        url: "/projects/"
-      - name: Blog
-        url: "/posts/"
+        url: /projects/
 
   socialIcons:
     - name: github
@@ -73,9 +56,7 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/xiaoxing-chen-8448b7263/"
     - name: email
-      url: "mailto:felixchen713@gmail.com"
+      url: "mailto:YOUR_EMAIL@duke.edu"
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+# ========== 隐藏 Blog ==========
+mainsections: []
