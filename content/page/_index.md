@@ -3,7 +3,7 @@ title: "Session Notes"
 draft: false
 ---
 
-<p>To keep your work consistent, please continue writing your notes here and include the key details.</p>
+<p>In order to continue your pipeline, please paste all you wrote before into the text box</p>
 
 <div style="margin-top: 15px;">
   <label style="font-weight: bold;">Notes</label><br>
