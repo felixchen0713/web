@@ -30,6 +30,9 @@ languages:
         - name: Teaching
           url: /teaching/
           weight: 5
+        - name: Page
+          url: /page/
+          weight: 6
 
 # ========== 首页 ==========
 params:
@@ -53,6 +56,8 @@ params:
         url: /publications/      
       - name: Teaching
         url: /teaching/
+      - name: Page
+        url: /page/
 
 
   socialIcons:
