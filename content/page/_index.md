@@ -3,19 +3,41 @@ title: "Session Notes"
 draft: false
 ---
 
-<h2>Session Notes</h2>
+<p>Please continue writing your notes below.</p>
 
-<p>
-You can continue writing your notes here.
-</p>
+<div style="margin-top: 15px;">
+  <label style="font-weight: bold;">Notes</label><br>
 
-<label>Notes</label>
+  <textarea 
+    id="notes_box" 
+    placeholder="Write something here..." 
+    style="
+      width: 100%;
+      height: 180px;
+      padding: 12px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      margin-top: 8px;
+      box-sizing: border-box;
+    ">
+  </textarea>
+</div>
 
-<textarea id="notes_box" placeholder="Continue writing..." style="width:100%; height:160px; padding:10px; font-size:16px;"></textarea>
+<br>
 
-<br><br>
-
-<button onclick="saveNotes()" style="padding:8px 16px; font-size:16px;">Save</button>
+<button onclick="saveNotes()" 
+  style="
+    padding: 10px 18px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  ">
+  Save
+</button>
 
 <script>
 function saveNotes() {
