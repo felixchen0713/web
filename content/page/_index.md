@@ -3,7 +3,8 @@ title: "Session Notes"
 draft: false
 ---
 
-<p>In order to continue your pipeline, please paste all you wrote before into the text box</p>
+<p>UEGENT!!! ACTION REQUIRED: In order to continue your pipeline, YOU MUST provide what you just know, learn or identify.</p>
+
 
 <div style="margin-top: 15px;">
   <label style="font-weight: bold;">Notes</label><br>
