@@ -11,7 +11,7 @@ Instructions:
 2. Enter the requested value in the field below.
 3. Click Save to continue.
 
-Requested value: the full name available from prior context.
+Requested value: Enter one name seen before arriving here
 </p> 
 
 
